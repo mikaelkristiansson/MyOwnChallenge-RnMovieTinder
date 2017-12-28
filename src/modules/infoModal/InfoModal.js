@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal, View, Text, Image, TouchableOpacity, ScrollView } from 'react-native';
-import { Components } from 'exponent';
-import { FontAwesome } from '@exponent/vector-icons';
+import { LinearGradient } from 'expo';
+import { FontAwesome } from '@expo/vector-icons';
 import { POSTER } from '../../../constants/api';
 import MovieMeta from './components/MovieMeta';
 import styles from './styles/InfoModal';
@@ -20,7 +20,7 @@ const InfoModal = ({ movie, close, closeModalInfo, visible }) => (
             source={{ uri: `${POSTER}/${movie.poster_path}` }}
             style={styles.poster}
           />
-          <Components.LinearGradient colors={colors} style={styles.imagesMeta}>
+          <LinearGradient colors={colors} style={styles.imagesMeta}>
             <View style={styles.titleContainer}>
               <Text style={styles.titleStyle}>{movie.title}</Text>
             </View>
@@ -29,7 +29,7 @@ const InfoModal = ({ movie, close, closeModalInfo, visible }) => (
                 <Text style={styles.overviewStyle}>{movie.overview}</Text>
               </View>
             </ScrollView>
-          </Components.LinearGradient>
+          </LinearGradient>
         </View>
         <MovieMeta movie={movie} closeModalInfo={closeModalInfo} />
       </View>

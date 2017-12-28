@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Actions } from 'react-native-router-flux';
 import { View, Text, Image, ScrollView, TouchableWithoutFeedback } from 'react-native';
-import { FontAwesome, MaterialIcons } from '@exponent/vector-icons';
+import { FontAwesome, MaterialIcons } from '@expo/vector-icons';
 import { POSTER } from '../../../constants/api';
 import styles from './styles/LikedMoviesScreen';
 import { removeMovieFromList } from '../swiper/actions';

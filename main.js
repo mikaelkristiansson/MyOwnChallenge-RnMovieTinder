@@ -1,4 +1,4 @@
-import Exponent, { Font } from 'exponent';
+import Expo, { Font } from 'expo';
 import React from 'react';
 import { Provider } from 'react-redux';
 // import { persistStore } from 'redux-persist';
@@ -61,4 +61,4 @@ const styles = StyleSheet.create({
   }
 });
 
-Exponent.registerRootComponent(App);
+Expo.registerRootComponent(App);

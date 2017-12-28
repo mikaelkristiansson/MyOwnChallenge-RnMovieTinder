@@ -1,5 +1,5 @@
 node_modules/**/*
-.exponent/*
+.expo/*
 npm-debug.*
 .vscode/
 constants/api_key.js

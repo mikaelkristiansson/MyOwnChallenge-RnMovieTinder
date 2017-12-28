@@ -2,7 +2,7 @@ import React from 'react';
 import { Scene, Router, Actions } from 'react-native-router-flux';
 import { Platform, TouchableOpacity, View } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
-import { MaterialIcons } from '@exponent/vector-icons';
+import { MaterialIcons } from '@expo/vector-icons';
 import {
   HomeScreen,
   IframeTrailerScreen,

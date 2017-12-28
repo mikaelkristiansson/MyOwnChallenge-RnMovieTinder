@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, TouchableOpacity } from 'react-native';
-import { Ionicons, FontAwesome } from '@exponent/vector-icons';
+import { Ionicons, FontAwesome } from '@expo/vector-icons';
 import Colors from '../../../../constants/Colors';
 import styles from './styles/ButtonsGroup';
 

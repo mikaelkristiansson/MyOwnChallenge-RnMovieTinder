@@ -1,0 +1,10 @@
+{
+  "name": "MovieLikeApp",
+  "displayName": "MovieLikeApp",
+  "expo": {
+    "name": "Movie Like",
+    "slug": "movie-like",
+    "sdkVersion": "23.0.0",
+    "privacy": "public"
+  }
+}
